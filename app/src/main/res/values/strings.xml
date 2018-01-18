@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project 466</string>
+    <string name="loading">loading</string>
+    <string name="signed_out">signed_out</string>
+    <string name="server_client_id">server_client_id</string>
+    <string name="refresh_token">refresh_token</string>
+    <string name="id_token_fmt">id_token_fmt</string>
+    <string name="signed_in">signed_in</string>
+    <string name="signed_in_fmt">signed_in_fmt</string>
+</resources>

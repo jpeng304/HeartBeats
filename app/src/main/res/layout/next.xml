@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#39add1">
+
+
+    <SearchView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchView" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:id="@+id/btnProfile"
+        android:background="#ff8800"
+        android:layout_marginTop="10dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Release Song"
+        android:id="@+id/lblRelease"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#313131" />
+
+    <ViewFlipper
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/release"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp">
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/call"
+           android:id="@+id/callImg"
+           android:layout_marginBottom="20dp"
+           android:adjustViewBounds="false"
+           android:longClickable="false" />
+
+       <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heathen"
+            android:id="@+id/heathenImg"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/devasted"
+           android:id="@+id/devastedImg"
+           android:layout_marginBottom="20dp" />
+        <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/rollercoaster"
+           android:id="@+id/coasterImg"
+           android:layout_marginBottom="20dp" />
+
+    </ViewFlipper>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:id="@+id/btnLogout"
+        android:background="#ff8800"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disconnect"
+        android:id="@+id/btnDisconnect"
+        android:background="#ff8800"
+        android:layout_marginTop="10dp" />
+</LinearLayout>

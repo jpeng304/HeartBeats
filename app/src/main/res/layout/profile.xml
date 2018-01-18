@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9bd9ea">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:id="@+id/lblName"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#313131" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:id="@+id/lblEmail"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#313131" />
+
+    <RadioButton
+        android:text="Allow everyone to search for me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbByAll"
+        />
+
+    <RadioButton
+        android:text="Allow people to search me by my email only"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbByEmail" />
+
+    <RadioButton
+        android:text="Don't allow people to search for me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdByNone"
+        android:checked="true" />       <!--This is the default privacy setting constructed
+                                            when setting up a new profile-->
+
+    <Button
+        android:text="Save Changes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btSave" />
+
+
+</LinearLayout>

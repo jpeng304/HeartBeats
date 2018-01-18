@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "66214732668",
+    "project_id": "firebase-heartbeats"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66214732668:android:494b6b9930975f9c",
+        "android_client_info": {
+          "package_name": "com.example.jonathan.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66214732668-5f4i9cgcafrirb81c50015f2j1flgt94.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jonathan.login",
+            "certificate_hash": "008A86BB5CE5F8DF2AE3E38C0453FD36EC83C313"
+          }
+        },
+        {
+          "client_id": "66214732668-ogo9suaeq1l0tn5nhkc86v9bbr46bljt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3-qTD_Aa2iowRfHbym9EJoUdXoFYxDIg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="sign_out_button" type="id">sign_out_button</item>
+    <item name="disconnect_button" type="id">disconnect_button</item>
+    <item name="status" type="id">status</item>
+    <item name="sign_out_and_disconnect" type="id">sign_out_and_disconnect</item>
+    <item name="detail" type="id">detail</item>
+    <item name="button_optional_action" type="id">button_optional_action</item>
+</resources>
